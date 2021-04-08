@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+    
+
+body{
+    font-size: 15px ;
+    font-family: "Lexend Deca", sans-serif;
+    background-color: #C9C9C9;
+    min-height: 625px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.grande {
+    display: flex;
+    justify-content: center;
+    max-width: 918px ;
+    border-radius: 32px ;
+}
+
+.titulo{
+    margin: 24px 0;
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 40px;
+}
+
+.carroGrande{
+    flex: 1;
+    padding: 90px 40px 90px 40px;
+    background-color:#FF8C00;
+}
+
+.suv{
+    
+    flex: 1;
+    padding: 90px 40px 90px 40px;
+    background-color:#008B8B;
+}
+
+.luxo{
+    
+    flex: 1;
+    padding: 90px 40px 90px 40px;
+    background-color:#053929;
+}
+
+.saibamais{
+    display: inline-block;
+    margin-top: 64px;
+    background-color: #f2f2f2;
+    text-decoration: none;
+    border-radius: 32px;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    padding: 16px 32px;
+    color: #FF8C00;
+    cursor: pointer;
+}
+
+.saibamais2{
+    display: inline-block;
+    margin-top: 64px;
+    background-color: #f2f2f2;
+    text-decoration: none;
+    border-radius: 32px;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    padding: 16px 32px;
+    color: #008B8B;
+    cursor: pointer;
+}
+.saibamais3{
+    display: inline-block;
+    margin-top: 64px;
+    background-color: #f2f2f2;
+    text-decoration: none;
+    border-radius: 32px;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    padding: 16px 32px;
+    color: #053929;
+    cursor: pointer;
+}
+
+.saibamais:hover {
+    background-color: #FF8C00;
+    color: hsla(0, 0%, 100%, 0.75);
+  }
+
+ .saibamais2:hover {
+
+    background-color: #008B8B;
+    color: hsla(0, 0%, 100%, 0.75);
+ } 
+
+ .saibamais3:hover{
+
+    background-color: #053929;
+    color: hsla(0, 0%, 100%, 0.75);
+ }
+
+
+@media screen and (max-width: 900px) {
+    .grande {
+      max-width: auto;}
+
+    .attribution { font-size: 11px; text-align: center }
+      
+    .attribution a { color: hsl(228, 45%, 44%) }
+  
+
+  }
+
+
+
+.end { 
+
+    position: absolute;
+    bottom: 16px;
+    color: #000000;
+
+]
+      
